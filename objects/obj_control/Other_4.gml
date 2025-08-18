@@ -12,3 +12,6 @@ layerCloud = layer_get_id("Background1");
 layerCloudspd = layer_get_hspeed(layerCloud);
 
 alarm[0] = room_speed * 3;
+
+nextSide = choose(239, 370);
+alarm[1] = room_speed * 2;
