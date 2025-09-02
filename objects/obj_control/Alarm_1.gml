@@ -8,7 +8,7 @@ if(randomCoin > 8){
 	instance_create_layer(room_width + 50, nextSide, "Instances", obj_coin);
 }
 else{
-	instance_create_layer(room_width + 50, nextSide, "Instances", obj_bubble);
+	instance_create_layer(room_width + 50, nextSide, "Obstacles", obj_bubble);
 }
 
 

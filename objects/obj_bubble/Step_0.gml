@@ -3,5 +3,6 @@
 
 hspeed = layer_get_hspeed("Platforms");
 if(x < -100){
+	global.points += 10;
 	instance_destroy();
 }
