@@ -20,5 +20,6 @@ if(mouse_check_button_pressed(mb_left)){
 }
 
 if(x < -50){
-	game_restart();
+	room_goto_next();
+	//game_restart();
 }
