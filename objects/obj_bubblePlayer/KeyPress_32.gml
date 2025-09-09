@@ -1,5 +1,4 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
-
-alarm[0] = 30;
-exitPlayer = false;
+global.points = 0;
+room_goto(Room1);

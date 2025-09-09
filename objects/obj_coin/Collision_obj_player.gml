@@ -4,4 +4,10 @@
 instance_create_layer(x,y, "Obstacles", obj_coinEffect);
 global.points += 50;
 
+	if(global.points > global.record){
+		
+		global.record = global.points;
+	
+	}
+
 instance_destroy();
